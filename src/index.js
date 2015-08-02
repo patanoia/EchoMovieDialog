@@ -14,7 +14,7 @@
 /**
  * App ID for the skill
  */
-var APP_ID = "amzn1.echo-sdk-ams.app.d15138d6-3039-4b50-9513-c88eb9af71be";
+var APP_ID = "replace";
 
 /**
  * Array containing general movie quotes
