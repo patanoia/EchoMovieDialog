@@ -1,0 +1,23 @@
+GeneralIntent hello
+GeneralIntent anything
+GeneralIntent why
+GeneralIntent when
+GeneralIntent where
+GeneralIntent do
+GeneralIntent is
+
+WhoIntent who are you
+
+HowIntent how are you
+
+SurelyIntent surely you can't be serious
+
+QuitIntent that's all folks
+
+NiceIntent Ah movie quotes nice
+
+AdviceIntent give me some advice
+
+WrongIntent what's wrong
+
+HelpIntent help
