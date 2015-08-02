@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "intent": "GeneralIntent",
+      "slots": []
+    },
+    {
+      "intent": "WhoIntent",
+      "slots": []
+    },
+    {
+      "intent": "HowIntent",
+      "slots": []
+    },
+    {
+      "intent": "SurelyIntent",
+      "slots": []
+    },
+    {
+      "intent": "AdviceIntent",
+      "slots": []
+    },
+    {
+      "intent": "NiceIntent",
+      "slots": []
+    },
+    {
+      "intent": "WrongIntent",
+      "slots": []
+    },
+    {
+      "intent": "QuitIntent",
+      "slots": []
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    }
+  ]
+ }
