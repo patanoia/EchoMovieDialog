@@ -14,17 +14,18 @@
 /**
  * App ID for the skill
  */
-var APP_ID = "replace";
+var APP_ID = "amzn1.echo-sdk-ams.app.d15138d6-3039-4b50-9513-c88eb9af71be";
 
 /**
  * Array containing general movie quotes
  */
 var MOVIE_QUOTES = [
     "You did it. You crazy son of a pitch, you did it.",
+	"Wait a minute! You ain't heard nothin' yet!",
     "Frankly, my dear, I don\'t give a damn.",
 	"Rosebud",
-	"We\'ll always have Paris.",
-	"I'm no good at being noble, but it doesn\'t take much to see that the problems of three little people don't amount to a hill of beans in this crazy world. Someday you\'ll understand that.",
+	"We'll always have Paris.",
+	"I'm no good at being noble, but it doesn\'t take much to see that the problems of three little people don't amount to a hill of beans in this crazy world. Someday you'll understand that.",
     "Take your stinkin' paws off me, you damn dirty ape!",
     "You're out of order! You're out of order! The whole trial is out of order!",
     "What is your major malfunction, numbnuts? Didn't mommy and daddy show you enough attention when you were a child?",
@@ -70,7 +71,6 @@ var MOVIE_QUOTES = [
 	"What I'm saying is - and this is not a come-on in any way, shape or form - is that men and women can't be friends because the sex part always gets in the way.",
 	"I love the smell of napalm in the morning.",
 	"You're an errand boy, sent by grocery clerks, to collect a bill.",
-	"Help me. Help me be human.",
 	"You could've been one of the great ones Buddy. I looked at you and saw myself.  Why?",
 	"Never will there be an Alexander like you, Alexander the Great.",
 	"You deliberately disobeyed me!",
@@ -101,11 +101,22 @@ var MOVIE_QUOTES = [
 	"Edwina's insides were a rocky place where my seed could find no purchase.",
 	"Well no; unless round is funny.",
 	"Some people never go crazy. What truly horrible lives they must lead.",
-	"I don't believe this! I've got a trig midterm tomorrow, and I'm being chased by Guido the killer pimp.",
+	"I don't believe this! I've got a trig mid term tomorrow, and I'm being chased by Guido the killer pimp.",
 	"How did we end up here? This place is horrible. Smells like balls. We don't belong here.",
 	"This is how they find us, by our teeth.",
 	"Negative. I am a meat popsicle.",
 	"Well Stu, I'll tell you, surfing's not a sport, it's a way of life, it's no hobby. It's a way of looking at that wave and saying, Hey bud, lets party!",
+	"You're a cookie full of arsenic",
+	"Is that hair gel?",
+	"The greatest trick the devil ever pulled was convincing the world he didn't exist",
+	"I'm not bad, I'm just drawn that way",
+	"To infinity and beyond!",
+	"What's in the box?",
+	"You'll shoot your eye out!",
+	"Every time a bell rings, an angel gets his wings",
+	" If I'd been a ranch, they would've named me the Bar Nothing.",
+	"Where's the rest of me?",
+	"Why don't you get out of that wet coat and into a dry martini?",
 	"Can you keep a secret? I'm trying to organize a prison break. I'm looking for, like, an accomplice. We have to first get out of this bar, then the hotel, then the city, and then the country. Are you in or you out?",
 	"I've selected you to lead us, not only because of your extraordinary fighting ability, but also because, in the unlikely event the Germans ever get you, they will assume from your attire that they've captured a wretched peasant and immediately send you on your way.",
 	"What I do have are a very particular set of skills, skills I have acquired over a very long career. Skills that make me a nightmare for people like you. "
@@ -123,6 +134,7 @@ var HELLO_QUOTES = [
     "Hello? Hello? Anybody home? Hey! Think, McFly. Think!",
     "You talkin' to me? You talkin' to me? You talkin' to me? Then who the hell else are you talking; you talking to me? Well I'm the only one here.",
 	"Hello Danny. Come and play with us. Come and play with us, Danny. Forever. And ever. And ever.",
+	"Hello, gorgeous!",
 	"Did you warble, my little wren?"
 ];
 
@@ -143,6 +155,9 @@ var WHO_QUOTES = [
 	"We're the Flying Elvises. Utah chapter.",
 	"Name's Smalls. Leonard Smalls. My friends call me Lenny. Only I ain't got no friends.",
 	"I am Jack's wasted life.",
+	"I am not an animal!",
+	"They call me Mister Tibbs!",
+	"My name is Patrick Bateman. I'm 27 years old. I believe in taking care of myself, and a balanced diet and a rigorous exercise routine. In the morning, if my face is a little puffy, I'll put on an ice pack while doing my stomach crunches. I can do a thousand now.",
 	"I'm Spartacus!"
 ];
 
@@ -178,6 +193,7 @@ var ADVICE_QUOTES = [
 	"You are not a beautiful or unique snowflake. You're the same decaying organic matter as everything else.",
 	"Take dead aim on the rich boys. Get them in the crosshairs and take them down. Just remember, they can buy anything but they can't buy backbone.",
 	"The things you own end up owning you.",
+	"Watch that first step, it's a doozy",
 	"Man who catch fly with chopstick accomplish anything."
 ];
 
@@ -195,6 +211,7 @@ var WRONG_QUOTES = [
 	"I eat breakfast three hundred yards from four thousand Cubans who are trained to kill me, so don't think for one second that you can come down here, flash a badge, and make me nervous.",
 	"Can somebody tell me what kind of a world we live in where a man dressed up as a bat gets all of my press? This town needs an enema!",
 	"I lost my hand! I lost my bride! Johnny has his hand! Johnny has his bride! You want me to take my heartache, put it away and forget?",
+	"It's this old house. I don't know why we don't all have pneumonia. Drafty old barn of a place. It's like growing up living in a refrigerator.",
 	"You know what your problem is, Princess? You're too used to getting your own way."
 ];
 
@@ -203,6 +220,9 @@ var WRONG_QUOTES = [
  */
 var HELP_QUOTES = [
 	"You know how to whistle, don't you Steve? You just put your lips together and, blow.",
+	"Help me. help you. Help me, help you.",
+	"Help me. Help me be human.",
+	"Help me Jesus! Help me Jewish God! Help me Allah! Aw! Help me Tom Cruise!",
  	"Help. Police, Murder."
 ];
 
@@ -218,6 +238,8 @@ var GOODBYE_QUOTES = [
     "I'll be back.",
 	"Shane! Shane! Come back! Bye, Shane.",
     "In case I don't see you, good afternoon, good evening, and good night!",
+	"You get nothing! You lose! Good day sir!",
+	"Stay classy, San Diego!",
     "Stay golden, Ponyboy."
 ];
 
@@ -254,6 +276,7 @@ MovieDialog.prototype.eventHandlers.onSessionStarted = function (sessionStartedR
         session.attributes.howQuotes = HOW_QUOTES.slice();
         session.attributes.adviceQuotes = ADVICE_QUOTES.slice();
         session.attributes.wrongQuotes = WRONG_QUOTES.slice();
+        session.attributes.helpQuotes = HELP_QUOTES.slice();
         session.attributes.goodbyeQuotes = GOODBYE_QUOTES.slice();
         session.attributes.surely = 0;
         session.attributes.nice = 0;
@@ -317,7 +340,7 @@ MovieDialog.prototype.intentHandlers = {
     },
 
     HelpIntent: function (intent, session, response) {
-        response.ask("You know how to whistle, don't you Steve? You just put your lips together and, blow.");
+        handleHelpQuoteRequest(session, response);
     }
 };
 
@@ -335,13 +358,14 @@ function handleHelloQuoteRequest(session, response) {
 	
     // Create speech output
     var speechOutput = quote;
+    var repromptSpeech = "Yo, Adrian!";
 
-    response.askWithCard(speechOutput, "MovieDialog", speechOutput);
+    response.askWithCard(speechOutput, repromptSpeech, "MovieDialog", speechOutput);
 }
 
 function handleNewQuoteRequest(session, response) {
     // Get a random quote from the movie quotes list
-	// if we have used up all WHO quotes, copy the original array again
+	// if we have used up all quotes, copy the original array again
 	if (session.attributes.movieQuotes.length === 0) {
 		console.log("MovieQuotes length = 0");
 		session.attributes.movieQuotes = MOVIE_QUOTES.slice();
@@ -355,8 +379,9 @@ function handleNewQuoteRequest(session, response) {
 
     // Create speech output
     var speechOutput = quote;
+    var repromptSpeech = "Talk to me, Goose.";
 
-    response.askWithCard(speechOutput, "MovieDialog", speechOutput);
+    response.askWithCard(speechOutput, repromptSpeech, "MovieDialog", speechOutput);
 }
 
 function handleWhoQuoteRequest(session, response) {
@@ -374,8 +399,9 @@ function handleWhoQuoteRequest(session, response) {
 
     // Create speech output
     var speechOutput = quote;
+    var repromptSpeech = "Bueller. Bueller. Anyone?";
 
-    response.askWithCard(speechOutput, "MovieDialog", speechOutput);
+    response.askWithCard(speechOutput, repromptSpeech, "MovieDialog", speechOutput);
 }
 
 function handleHowQuoteRequest(session, response) {
@@ -393,8 +419,9 @@ function handleHowQuoteRequest(session, response) {
 
     // Create speech output
     var speechOutput = quote;
+    var repromptSpeech = "Were you listening to the Dude's story, Donnie?";
 
-    response.askWithCard(speechOutput, "MovieDialog", speechOutput);
+    response.askWithCard(speechOutput, repromptSpeech, "MovieDialog", speechOutput);
 }
 
 function handleSurelyQuoteRequest(session, response) {
@@ -402,8 +429,9 @@ function handleSurelyQuoteRequest(session, response) {
 	session.attributes.surely = 1;
 	// Use hard-coded quote
     var speechOutput = "I am serious. And don't call me Shirley.";
+    var repromptSpeech = "Joey, have you ever been in a, in a Turkish prison?";
 
-    response.askWithCard(speechOutput, "MovieDialog", speechOutput);
+    response.askWithCard(speechOutput, repromptSpeech, "MovieDialog", speechOutput);
 }
 
 function handleAdviceQuoteRequest(session, response) {
@@ -421,8 +449,9 @@ function handleAdviceQuoteRequest(session, response) {
 
     // Create speech output
     var speechOutput = quote;
+    var repromptSpeech = "Say What again.";
 
-    response.askWithCard(speechOutput, "MovieDialog", speechOutput);
+    response.askWithCard(speechOutput, repromptSpeech, "MovieDialog", speechOutput);
 }
 
 function handleWrongQuoteRequest(session, response) {
@@ -437,11 +466,30 @@ function handleWrongQuoteRequest(session, response) {
 	// remove this quote from array
 	session.attributes.wrongQuotes.splice(quoteIndex, 1);
 
-
     // Create speech output
     var speechOutput = quote;
+    var repromptSpeech = "Come on! Do it! Do it now!";
 
-    response.askWithCard(speechOutput, "MovieDialog", speechOutput);
+    response.askWithCard(speechOutput, repromptSpeech, "MovieDialog", speechOutput);
+}
+
+function handleHelpQuoteRequest(session, response) {
+    // Get a random quote from the Wrong quotes list
+	// if we have used up all WRONG quotes, copy the original array again
+	if (session.attributes.helpQuotes.length === 0) {
+		session.attributes.helpQuotes = HELP_QUOTES.slice();
+	}
+    var quoteIndex = Math.floor(Math.random() * session.attributes.helpQuotes.length);
+    var quote = session.attributes.helpQuotes[quoteIndex];
+
+	// remove this quote from array
+	session.attributes.helpQuotes.splice(quoteIndex, 1);
+	
+    // Create speech output
+    var speechOutput = quote;
+    var repromptSpeech = "If my answers frighten you, then you should cease asking scary questions.";
+
+    response.askWithCard(speechOutput, repromptSpeech, "MovieDialog", speechOutput);
 }
 
 function handleNiceQuoteRequest(session, response) {
@@ -449,8 +497,9 @@ function handleNiceQuoteRequest(session, response) {
 	session.attributes.nice = 1;
     // Use hard-coded quote
     var speechOutput = "Hey!  That's my line!";
+    var repromptSpeech = "Hurry up, Lance! We're losing her!";
 
-    response.askWithCard(speechOutput, "MovieDialog", speechOutput);
+    response.askWithCard(speechOutput, repromptSpeech, "MovieDialog", speechOutput);
 
 }
 
